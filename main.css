@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(/Img.png);   /* path to your image */
+    background-size: cover;               /* makes image fill screen */
+    background-repeat: no-repeat;         
+    background-position: center;
 }
 
 .container {
@@ -11,7 +15,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     font-family:'Times New Roman', Times, serif;
-    background-color:#223B51;
+     background: linear-gradient(to left, #303c9b, #7786f8);
 
 h1 {
     text-align: center;
@@ -55,7 +59,7 @@ h1 {
 }
 
 .buttons button.selected {
-    background-color: #223B51
+    background-color: #303c9b;
 
 
 ; /* Darker shade of royal blue for selected button */
@@ -92,7 +96,7 @@ input[type="number"] {
 }
 
 .progress-bar {
-    background-color: #223B51;
+    background-color: #303c9b;
     height: 100%;
     width: 0%;
     border-radius: 5px;
