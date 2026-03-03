@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     font-family:'Times New Roman', Times, serif;
-    background: linear-gradient(to right, #3C4992, #E8EBF1);
+    background: linear-gradient(to left, #303c9b, #7786f8);
 
 h1 {
     text-align: center;
