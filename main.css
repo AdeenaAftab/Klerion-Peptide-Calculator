@@ -4,9 +4,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: #ffffff;   /* path to your image */
-    background-size: cover;               /* makes image fill screen */
-    background-repeat: no-repeat;         
-    background-position: center;
 }
 
 .container {
